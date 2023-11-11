@@ -1,0 +1,59 @@
+{
+  "name": "route-to-regexp",
+  "version": "0.0.0",
+  "description": "Turn a route string into a regular expression",
+  "keywords": [
+    "express",
+    "router",
+    "routing",
+    "path",
+    "route",
+    "regexp",
+    "regex",
+    "path-to-regexp",
+    "route-to-regexp",
+    "route-parser",
+    "route-matcher",
+    "route-regex",
+    "path-parser",
+    "path-matcher",
+    "path-regex"
+  ],
+  "homepage": "https://github.com/bh1337x/route-to-regexp#readme",
+  "bugs": "https://github.com/bh1337x/route-to-regexp/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Shah Bakhteyar Haider",
+    "email": "haider.bakhteyar786@gmail.com",
+    "url": "https://github.com/bh1337x"
+  },
+  "files": [
+    "build/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bh1337x/route-to-regexp.git"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "readme": "README.md",
+
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest --dir ./src --run",
+    "format": "prettier --write ./src/**/*.ts",
+    "lint": "eslint --ext .ts ./src"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.0.0",
+    "vitest": "^0.34.6"
+  }
+}
